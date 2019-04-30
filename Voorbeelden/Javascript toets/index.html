@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/master.css">
+    <title>Pagina</title>
+  </head>
+  <body>
+    <form class="form" action="" method="post">
+      <input type="radio" id="tekstKleur" name="radio" value="tekstkleur" checked>Tekstkleur
+      <input type="radio" id="achtergrondKleur" name="radio" value="achtergrondkleur"> Achtergrondkleur <br>
+
+      <input type="radio" id="hoogte" name="radio" value="hoogte">Hoogte
+      <input type="radio" id="breedte" name="radio" value="breedte">Breedte
+      <input type="radio" id="tekst" name="radio" value="tekst">Tekst <br><br>
+
+      <input type="text" id="tekstInput" name="" value="" placeholder="Waarde" autofocus>
+      <input type="button" id="buttonInput" onclick="Aanpassen()" name="" value="Aanpassen"><br><br>
+    </form>
+    <div id="resultaat" onclick="">
+      <p id="divTekst">Hello world!</p>
+    </div>
+
+    <br><br><br>
+    <hr>
+
+    <input type="button" name="" value="uitrekenen" onclick="uitrekenen()">
+
+    <br><br><br>
+    <hr>
+
+    <input type="button" name="" value="Take a guess!" onclick="startTurn()">
+    <script src="js/main.js" charset="utf-8"></script>
+  </body>
+</html>
